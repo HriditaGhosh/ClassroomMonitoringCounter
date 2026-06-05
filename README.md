@@ -16,7 +16,10 @@ This project uses two IR sensors placed at a classroom door to detect the direct
 
 
 🛠️ Hardware
-ComponentDetailFPGA BoardBasys 3 (Artix-7)Clock100 MHz onboardIR Sensors2× LM393 (Active Low) via PMOD JABuzzer1× via PMOD JA Pin 3DisplayOnboard 4-digit 7-segmentLEDsOnboard LEDs (Red, Yellow, Green)
+-ComponentDetailFPGA BoardBasys 3 (Artix-7)Clock100 MHz onboardIR 
+-Sensors2× LM393 (Active Low) via PMOD 
+-JABuzzer1× via PMOD JA Pin 3
+-DisplayOnboard 4-digit 7-segmentLEDsOnboard LEDs (Red, Yellow, Green)
 
 📁 Project Structure
 classroom-monitoring-counter/
