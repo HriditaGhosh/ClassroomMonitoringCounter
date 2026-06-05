@@ -16,7 +16,7 @@ This project uses two IR sensors placed at a classroom door to detect the direct
 
 
 
-📊 Schematic & Circuit Diagram::
+📊 Schematic & Circuit Diagram Smart Classroom People Counter System using Verilog HDL on Basys3 FPGA:
 <img width="461" height="617" alt="Screenshot 2026-06-05 211639" src="https://github.com/user-attachments/assets/187efede-f499-4883-b6c8-bcbcb97f79ef" />
 
 
