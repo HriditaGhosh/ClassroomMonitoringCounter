@@ -36,11 +36,10 @@ Two IR sensors detect entry and exit movements, and a **finite state machine (FS
 - 🔄 Manual override mode support  
 - 🛡️ Debounced sensor inputs for stability  
 
----
+
 
 ## 🧠 System Architecture
 
-```text
 IR Sensors → Debounce → FSM → Counter → Comparator
                                       ↓
      LEDs ← LED Controller ← Status Flags
@@ -48,7 +47,9 @@ IR Sensors → Debounce → FSM → Counter → Comparator
        7-Segment Display + Buzzer + Light Control
 
 
-📊 Schematic & Circuit Diagram Smart Classroom People Counter System using Verilog HDL on Basys3 FPGA:
+
+
+-📊 Schematic & Circuit Diagram Smart Classroom People Counter System using Verilog HDL on Basys3 FPGA:
 <img width="461" height="617" alt="Screenshot 2026-06-05 211639" src="https://github.com/user-attachments/assets/187efede-f499-4883-b6c8-bcbcb97f79ef" />
 
 
