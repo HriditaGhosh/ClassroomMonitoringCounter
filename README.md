@@ -4,7 +4,7 @@ A real-time people counting system for classroom occupancy monitoring, implement
 📌 Overview
 This project uses two IR sensors placed at a classroom door to detect the direction of movement — counting people entering and exiting in real time. The current occupancy is displayed on a 7-segment display, with LED indicators and a buzzer alert when the room reaches full capacity.
 
-✨ Features
+ #✨ Features
 
 -👥 Bidirectional People Counting — Detects entry vs exit using sensor sequence (FSM-based)
 -🔢 7-Segment Display — Shows live count (0–99) on the Basys 3 onboard display
