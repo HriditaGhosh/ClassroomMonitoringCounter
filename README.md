@@ -62,7 +62,7 @@ IR Sensors → Debounce → FSM → Counter → Comparator
 | Display    | Onboard 4-digit 7-segment         |
 | LEDs       | Onboard LEDs (Red, Yellow, Green) |
 
-
+---
 📁 Project Structure
 classroom-monitoring-counter/
 │
@@ -170,7 +170,7 @@ If you have a **Basys3 FPGA Board (XC7A35T)** and want to run this project insta
 ---
 
 ### Deployment Steps:
-1. Download the `full_system.bit` file from the `/bitstream` folder of this repository.
+1. Download the `full_system.bit` file from the release section of this repository.
 2. Connect your Basys3 board to your PC via USB and power it ON.
 3. Open **Xilinx Vivado** and click on **Hardware Manager** -> **Open Target**.
 4. Right-click on the target FPGA chip (`xc7a35t_0`), select **Program Device**, and browse to the downloaded `full_system.bit` file.
