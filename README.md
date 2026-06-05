@@ -1,19 +1,51 @@
-🏫 Classroom Monitoring Counter
-A real-time people counting system for classroom occupancy monitoring, implemented in Verilog on the Basys 3 FPGA board using Xilinx Vivado.
+# 🏫 Classroom Monitoring Counter (FPGA | Verilog | Basys 3)
 
-📌 Overview
-This project uses two IR sensors placed at a classroom door to detect the direction of movement — counting people entering and exiting in real time. The current occupancy is displayed on a 7-segment display, with LED indicators and a buzzer alert when the room reaches full capacity.
+> Real-time intelligent occupancy monitoring system implemented on FPGA using Verilog HDL with FSM-based bidirectional people counting.
 
- #✨ Features
+---
 
--👥 Bidirectional People Counting — Detects entry vs exit using sensor sequence (FSM-based)
--🔢 7-Segment Display — Shows live count (0–99) on the Basys 3 onboard display
--🚦 LED Status Indicators — Green (empty), Yellow (near full ≥18), Red (full ≥20)
--🔔 Buzzer Alert — Activates when room reaches capacity (count ≥ 20)
--💡 Auto Room Light Control — Light turns on when room is occupied (count > 0)
--🔄 Manual Override — Switch between auto and manual light control
--🛡️ Debounce Circuit — Cleans up noisy IR sensor signals (500K cycle stable window)
+## 📌 Overview
 
+This project implements a **real-time classroom occupancy monitoring system** on the **:contentReference[oaicite:0]{index=0}**, designed using **Verilog HDL** in **:contentReference[oaicite:1]{index=1}**.
+
+Two IR sensors detect entry and exit movements, and a **finite state machine (FSM)** determines direction. The system displays live occupancy on a **7-segment display**, along with LED indicators and a buzzer alert for full capacity conditions.
+
+---
+
+## 🎯 Objectives
+
+- Design a real-time embedded monitoring system using FPGA  
+- Implement FSM-based direction detection  
+- Develop modular Verilog architecture  
+- Interface sensors, LEDs, buzzer, and 7-segment display  
+- Ensure noise-free input using debouncing techniques  
+
+---
+
+## ✨ Key Features
+
+- 👥 Bidirectional people counting (Entry / Exit detection)  
+- 🔁 FSM-based movement tracking  
+- 🔢 Real-time 0–99 occupancy display  
+- 🚦 Status indicators:
+  - Green → Safe
+  - Yellow → Near capacity
+  - Red → Full capacity  
+- 🔔 Buzzer alert at threshold limit  
+- 💡 Automatic room light control  
+- 🔄 Manual override mode support  
+- 🛡️ Debounced sensor inputs for stability  
+
+---
+
+## 🧠 System Architecture
+
+```text
+IR Sensors → Debounce → FSM → Counter → Comparator
+                                      ↓
+     LEDs ← LED Controller ← Status Flags
+                                      ↓
+       7-Segment Display + Buzzer + Light Control
 
 
 📊 Schematic & Circuit Diagram Smart Classroom People Counter System using Verilog HDL on Basys3 FPGA:
