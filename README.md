@@ -15,6 +15,11 @@ This project uses two IR sensors placed at a classroom door to detect the direct
 -🛡️ Debounce Circuit — Cleans up noisy IR sensor signals (500K cycle stable window)
 
 
+
+🎓DIAGRAM:
+<img width="461" height="617" alt="Screenshot 2026-06-05 211639" src="https://github.com/user-attachments/assets/187efede-f499-4883-b6c8-bcbcb97f79ef" />
+
+
 🛠️ Hardware
 -ComponentDetailFPGA BoardBasys 3 (Artix-7)Clock100 MHz onboardIR 
 -Sensors2× LM393 (Active Low) via PMOD 
