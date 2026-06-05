@@ -64,22 +64,23 @@ IR Sensors → Debounce → FSM → Counter → Comparator
 
 ---
 📁 Project Structure
+
 classroom-monitoring-counter/
 │
 ├── src/
 │   ├── full_system.v        # Top-level module
-│   ├── fsm.v               # Entry/Exit detection FSM
-│   ├── counter.v           # Up/Down counter (0–99)
-│   ├── debounce.v          # Button/sensor debouncer
-│   ├── comparator.v        # Threshold logic (full/warn/empty)
-│   ├── led_control.v       # RGB LED driver
-│   ├── seven_seg.v         # Multiplexed 7-segment display
-│   ├── buzzer_ctrl.v       # Buzzer controller
-│   ├── light_ctrl.v        # Auto light logic
-│   └── override_ctrl.v     # Manual/auto mode selector
+│   ├── fsm.v                # Entry/Exit detection FSM
+│   ├── counter.v            # Up/Down counter (0–99)
+│   ├── debounce.v           # Button/sensor debouncer
+│   ├── comparator.v         # Threshold logic (full/warn/empty)
+│   ├── led_control.v        # RGB LED driver
+│   ├── seven_seg.v          # 7-segment display
+│   ├── buzzer_ctrl.v        # Buzzer controller
+│   ├── light_ctrl.v         # Auto light logic
+│   └── override_ctrl.v      # Manual/auto mode selector
 │
 ├── constraints/
-│   └── pinmapping.xdc      # Basys 3 pin assignments
+│   └── pinmapping.xdc       # Basys 3 pin assignments
 │
 └── README.md
 
