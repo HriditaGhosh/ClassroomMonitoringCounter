@@ -47,9 +47,10 @@ IR Sensors → Debounce → FSM → Counter → Comparator
        7-Segment Display + Buzzer + Light Control
 
 
-
+---
 
 -📊 Schematic & Circuit Diagram Smart Classroom People Counter System using Verilog HDL on Basys3 FPGA:
+---
 <img width="461" height="617" alt="Screenshot 2026-06-05 211639" src="https://github.com/user-attachments/assets/187efede-f499-4883-b6c8-bcbcb97f79ef" />
 
 | Component  | Detail                            |
@@ -163,7 +164,17 @@ Enables manual/auto control switching mode.
 - Connect Basys 3 via USB  
 - Program the FPGA  
 
+--- ## 💾 Direct Hardware Deployment (Pre-Compiled Bitstream)
+
+If you have a **Basys3 FPGA Board (XC7A35T)** and want to run this project instantly without opening Xilinx Vivado or compiling the Verilog source code, you can flash the pre-compiled programming file directly.
 ---
+
+### Deployment Steps:
+1. Download the `full_system.bit` file from the `/bitstream` folder of this repository.
+2. Connect your Basys3 board to your PC via USB and power it ON.
+3. Open **Xilinx Vivado** and click on **Hardware Manager** -> **Open Target**.
+4. Right-click on the target FPGA chip (`xc7a35t_0`), select **Program Device**, and browse to the downloaded `full_system.bit` file.
+5. Click **Program**. The Smart Classroom Counter logic will be fully operational on your board instantly!
 
 # 📐 Pin Mapping (Basys 3)
 
