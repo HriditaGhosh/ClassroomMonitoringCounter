@@ -191,6 +191,5 @@ If you have a **Basys3 FPGA Board (XC7A35T)** and want to run this project insta
 | green | U19 | Green LED |
 | light | V19 | Room light output
 ---
----DEMO:---
-https://github.com/user-attachments/assets/ccfdc3eb-e98f-4715-8256-488c0401a0b7
-
+<video src="https://github.com/user-attachments/assets/ccfdc3eb-e98f-4715-8256-488c0401a0b7" controls="controls" style="max-width: 100%;">
+</video>
